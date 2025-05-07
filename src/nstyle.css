@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #f0f0f0;
+  }
+
+  header {
+    background: #fff;
+    padding: 12px 20px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    height: 60px;
+  }
+
+  .nav-right {
+    display: flex;
+    gap: 12px;
+  }
+
+  .nav-right button {
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    background-color: #498E80;
+    color: white;
+    cursor: pointer;
+  }
+
+  main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .gacha-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 380px;
+    flex: 1 1 320px;
+  }
+
+  .gacha-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .gacha-info {
+    padding: 10px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+  }
+
+  .gacha-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 0 16px 16px;
+  }
+
+  .btn {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .btn-gray {
+    background: #333;
+    color: white;
+  }
+
+  .btn-pink {
+    background: #f74b83;
+    color: white;
+  }
+
+  .btn-red {
+    background: #e53935;
+    color: white;
+  }
+
+  .currency {
+    display: flex;
+    align-items: center;
+  }
+
+  .currency img {
+    height: 16px;
+    margin-right: 4px;
+  }
+
+  .amount {
+    color: #2ecc71;
+    font-weight: bold;
+  }
+
+  .login-wrapper {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .login-wrapper h2 {
+    margin-bottom: 8px;
+    font-size: 18px;
+  }
+
+  .login-wrapper p {
+    margin-bottom: 24px;
+    color: #444;
+  }
+
+  .login-wrapper input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+
+  .login-wrapper button {
+    width: 100%;
+    padding: 12px;
+    background-color: #498E80;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 9999px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 12px;
+  }
+
+  .login-wrapper .forgot-link {
+    display: block;
+    text-align: center;
+    margin-top: 16px;
+    color: #2196f3;
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+  .login-wrapper .forgot-link:hover {
+    text-decoration: underline;
+  }
+
+  .gacha-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
